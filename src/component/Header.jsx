@@ -42,7 +42,7 @@ const Header = () => {
       <div className="action_bar">
         <div className="action_container">
           <BsFillPersonFill size={22} />
-          <span className="action_name" to="/footer">
+          <span className="action_name" to="footer">
             Profile
           </span>
         </div>
