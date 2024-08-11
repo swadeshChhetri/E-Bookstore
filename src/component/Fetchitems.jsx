@@ -20,40 +20,22 @@ const Fetchbooks = () => {
       dispatch(fetchStatusActions.markFetchingStarted());
 
       try {
-        const [booksRes, historyRes, poetryRes, psychologyRes, artsRes, 
-        storiesRes, motivationRes] = await Promise.all([
-          fetch("https://swadeshchhetri.github.io/bookstore-api/books"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/history"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/poetry"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/psychology"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/arts"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/stories"),
-          fetch("https://swadeshchhetri.github.io/bookstore-api/motivation")
-        ]);
+        const response = await fetch("https://swadeshchhetri.github.io/bookstore-api/data.json");
 
-        if (!booksRes.ok || !historyRes.ok || !poetryRes.ok || !psychologyRes.ok ||
-            !artsRes.ok || !storiesRes.ok || !motivationRes.ok) {
+        if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
 
-        const [books, history, poetry, psychology, arts, stories, motivation] = 
-        await Promise.all([
-          booksRes.json(),
-          historyRes.json(),
-          poetryRes.json(),
-          psychologyRes.json(),
-          artsRes.json(),
-          storiesRes.json(),
-          motivationRes.json()
-        ]);
+        const data = await response.json();
 
-        dispatch(booksActions.addInitialbooks(books));
-        dispatch(historyActions.addInitialhistory(history));
-        dispatch(poetryActions.addInitialpoetry(poetry));
-        dispatch(psychologyActions.addInitialpsychology(psychology));
-        dispatch(artsActions.addInitialarts(arts)); 
-        dispatch(storiesActions.addInitialstories(stories)); 
-        dispatch(motivationActions.addInitialmotivation(motivation));
+     
+        dispatch(booksActions.addInitialbooks(data.books));
+        dispatch(historyActions.addInitialhistory(data.history));
+        dispatch(poetryActions.addInitialpoetry(data.poetry));
+        dispatch(psychologyActions.addInitialpsychology(data.psychology));
+        dispatch(artsActions.addInitialarts(data.arts)); 
+        dispatch(storiesActions.addInitialstories(data.stories)); 
+        dispatch(motivationActions.addInitialmotivation(data.motivation));
 
         dispatch(fetchStatusActions.markFetchingFinished());
       } catch (error) {
@@ -71,7 +53,6 @@ const Fetchbooks = () => {
     };
   }, [fetchStatus, dispatch]);
 
-  return null;
 };
 
 export default Fetchbooks;
