@@ -17,17 +17,17 @@ import History from "./component/ITEM/History.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/E_BookStore/",
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/bag",element: <Bag />},
-      { path: "/poetry", element: <Poetry/>},
-      { path: "/history",element: <History />,},
-      { path: "/psychology",element: <Psychologybook />},
-      { path: "/Arts",element: <Arts />},
-      { path: "/stories",element: <Stories />},
-      { path: "/motivation",element: <Motivation />},
+      { path: "/E_BookStore/", element: <Home /> },
+      { path: "/E_BookStore/bag",element: <Bag />},
+      { path: "/E_BookStore/poetry", element: <Poetry/>},
+      { path: "/E_BookStore/history",element: <History />,},
+      { path: "/E_BookStore/psychology",element: <Psychologybook />},
+      { path: "/E_BookStore/Arts",element: <Arts />},
+      { path: "/E_BookStore/stories",element: <Stories />},
+      { path: "/E_BookStore/motivation",element: <Motivation />},
     ]
   }
 ]);
