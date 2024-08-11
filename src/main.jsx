@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/E_BookStore/", element: <Home /> },
       { path: "/E_BookStore/bag",element: <Bag />},
-      { path: "/E_BookStore/poetry", element: <Poetry/>},
+      { path: "/E_BookStore/poetry",element: <Poetry/>},
       { path: "/E_BookStore/history",element: <History />,},
       { path: "/E_BookStore/psychology",element: <Psychologybook />},
       { path: "/E_BookStore/arts",element: <Arts />},
