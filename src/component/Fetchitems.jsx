@@ -20,13 +20,14 @@ const Fetchbooks = () => {
       dispatch(fetchStatusActions.markFetchingStarted());
 
       try {
-        const response = await fetch("https://swadeshchhetri.github.io/bookstore-api/data.json");
+        const response = await fetch("https://swadeshchhetri.github.io/bookStore-api/db.json")
 
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
 
         const data = await response.json();
+        console.log(data);
 
      
         dispatch(booksActions.addInitialbooks(data.books));

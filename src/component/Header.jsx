@@ -23,21 +23,20 @@ const Header = () => {
 
       <nav className="nav_bar">
         <Link to="/">Home</Link>
-        <Link to="/poetry">poetry</Link>
-        <Link to="/history">History</Link>
-        <Link to="/psychology">Psychology</Link>
-        <Link to="/arts">Arts & Architecture</Link>
+        <Link to="poetry">poetry</Link>
+        <Link to="history">History</Link>
+        <Link to="psychology">Psychology</Link>
+        <Link to="arts">Arts & Architecture</Link>
         <Link to="stories">Stories</Link>
         <Link to="motivation">
           Motivation <sup>New</sup>
         </Link>
       </nav>
-      <BsFillMenuButtonWideFill size={55} className="menu_icon"/>
+      <BsFillMenuButtonWideFill size={55} className="menu_icon" />
 
       <div className="search_bar">
-        <FiSearch size={22}/>
-        <input className="search_input" placeholder="Search for books"  />
-        
+        <FiSearch size={22} />
+        <input className="search_input" placeholder="Search for books" />
       </div>
 
       <div className="action_bar">
@@ -57,9 +56,7 @@ const Header = () => {
           <sup className="bag-book-count">{bag.length}</sup>
         </Link>
       </div>
-      <div className="menu_container">
-        
-      </div>
+      <div className="menu_container"></div>
     </header>
   );
 };

@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       { path: "/E_BookStore/poetry", element: <Poetry/>},
       { path: "/E_BookStore/history",element: <History />,},
       { path: "/E_BookStore/psychology",element: <Psychologybook />},
-      { path: "/E_BookStore/Arts",element: <Arts />},
+      { path: "/E_BookStore/arts",element: <Arts />},
       { path: "/E_BookStore/stories",element: <Stories />},
       { path: "/E_BookStore/motivation",element: <Motivation />},
     ]
