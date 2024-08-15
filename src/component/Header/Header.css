@@ -1,0 +1,187 @@
+header {
+  display: flex;
+  background-color: #ffffff;
+  margin: 1rem;
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home {
+  height: 8rem;
+}
+.logo_container {
+  margin: 1rem;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  min-width: 52%;
+  justify-content: space-evenly;
+}
+.nav_bar a {
+  font-size: 14px;
+
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 0;
+  border-bottom: 5px solid #ffffff;
+  overflow: hidden;
+}
+.nav_bar a:hover {
+  border-bottom: 4px solid #f54e77;
+}
+
+.nav_bar a sup {
+  color: #ff3f6c;
+  font-size: 10px;
+}
+
+.search_bar {
+  height: 3rem;
+  width: 60%;
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #eef0f5;
+  padding: 16px;
+  border-radius: 1rem;
+}
+
+.search_input {
+  border: #eef0f5;
+  margin-left: 1rem;
+  width: 60%;
+}
+
+.action_bar {
+  margin-top: 1rem;
+  display: flex;
+  min-width: 14%;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu_container {
+  display: none;
+  text-align: center;
+}
+
+.menu_icon {
+  max-width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.bag-book-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 1.1rem;
+  padding: 0 6px;
+  height: 1.1rem;
+  position: relative;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: #fff;
+  left: 13px;
+  top: -44px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.action_container {
+  text-decoration: none;
+}
+a.action_container:link {
+  color: black;
+}
+
+@media screen and (max-width: 1250px) {
+  .logo_container {
+    margin: 0;
+  }
+  .myntra_home {
+    height: 5rem;
+  }
+  .nav_bar a {
+    font-size: 11px;
+  }
+  .action_bar {
+    font-size: 10px;
+    min-width: 0%;
+  }
+  .search_bar {
+    min-width: 20%;
+  }
+  .search_input {
+    font-size: 13px;
+    min-width: 20%;
+  }
+}
+
+@media screen and (max-width: 933px) {
+  .nav_bar a {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 783px) {
+  .nav_bar {
+    display: none;
+  }
+  .menu_container {
+    display: flex;
+    max-width: 100%;
+    float: left;
+    margin-left: 2rem;
+    display: block;
+  }
+  .menu_icon {
+    display: block;
+    margin-right: 2rem;
+  }
+  .search_bar {
+    min-width: 20%;
+  }
+  .search_input {
+    font-size: 13px;
+    min-width: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo_container {
+    display: none;
+  }
+  .myntra_home {
+    display: none;
+  }
+  .menu_icon {
+    height: 2rem;
+    margin-right: 1rem;
+  }
+  .search_bar {
+    margin-left: 0px;
+    width: 80%;
+  }
+  .search_input {
+    font-size: 13px;
+    min-width: 70%;
+  }
+  .action_container {
+    font-size: 0.5rem;
+  }
+}

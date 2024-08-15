@@ -1,0 +1,31 @@
+.footer_container {
+  margin: 3rem 2rem 1rem 2rem;
+  padding: 30px 0px 40px 0px;
+  background: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 0.4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.footer_column a {
+  color: #696b79;
+  font-size: 0.6rem;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.copyright {
+  color: #94969f;
+  text-align: end;
+}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (max-width: 933px) {}
+
+@media screen and (max-width: 783px) {}
+
+@media screen and (max-width: 550px) {}

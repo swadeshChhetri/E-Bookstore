@@ -1,7 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
-import { bagActions } from "../store/bagSlice";
+import { bagActions } from "../../store/bagSlice";
 import { GrAddCircle } from "react-icons/gr";
 import { AiFillDelete } from "react-icons/ai";
+import "./HomeItem.css";
 
 const Homebook = ({ book }) => {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const Homebook = ({ book }) => {
   };
 
   return (
-    <div id = "poet" className="book-container">
+    <div id="poet" className="book-container">
       <img className="book-image" src={book.image} alt="book image" />
       <div className="rating">
         {book.rating.stars} ⭐ | {book.rating.count}
@@ -50,6 +51,5 @@ const Homebook = ({ book }) => {
     </div>
   );
 };
-
 
 export default Homebook;

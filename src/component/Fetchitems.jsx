@@ -27,7 +27,6 @@ const Fetchbooks = () => {
         }
 
         const data = await response.json();
-        console.log(data);
 
      
         dispatch(booksActions.addInitialbooks(data.books));

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { FiSearch } from "react-icons/fi";
 import { BsFillMenuButtonWideFill } from "react-icons/bs";
+import './Header.css';
 
 const Header = () => {
   const bag = useSelector((store) => store.bag);
@@ -12,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo_container">
-        <Link to="/">
+        <Link to="/E_BookStore/">
           <img
             className="myntra_home"
             src="image/Booklogo.jpg"
@@ -22,7 +23,7 @@ const Header = () => {
       </div>
 
       <nav className="nav_bar">
-        <Link to="/">Home</Link>
+        <Link to="/E_BookStore/">Home</Link>
         <Link to="poetry">poetry</Link>
         <Link to="history">History</Link>
         <Link to="psychology">Psychology</Link>
