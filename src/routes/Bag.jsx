@@ -6,7 +6,7 @@ const Bag = () => {
   const bagbooks = useSelector((state) => state.bag);
 
   const books = useSelector((state) => state.books);
-  
+
   const finalbooks = books.filter((book) => {
     const bookIndex = bagbooks.indexOf(book.id);
     return bookIndex >= 0;

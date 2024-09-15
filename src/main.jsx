@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./routes/App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Bag from "./routes/Bag.jsx";
 import Home from "./routes/Home.jsx";
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     path: "/E_BookStore/",
     element: <App />,
     children: [
-      { path: "/E_BookStore/", element: <Home /> },
+      { index: true, element: <Home /> },
       { path: "/E_BookStore/bag", element: <Bag />},
       { path: "/E_BookStore/poetry",element: <Poetry/>},
       { path: "/E_BookStore/history",element: <History />,},
