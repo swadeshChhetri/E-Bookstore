@@ -1,6 +1,5 @@
 .home {
-  background: url('image/booksBan.jpg') no-repeat center
-   center/ cover;
+  background: url('/image/booksBan.jpg') no-repeat center center/ cover;
   display: flex;
   justify-content: center;
   width: 100%;
