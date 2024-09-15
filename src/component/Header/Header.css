@@ -14,11 +14,6 @@ header {
   border-radius: 2rem;
 }
 
-/* button { */
-  /* color: black; */
-  /* background-color: white; */
-  /* border: none; */
-/* } */
 
 button:hover {
   color: black;
@@ -28,30 +23,6 @@ button:hover {
 .action_bar {
   margin-right: 4%;
 }
-/* .nav_bar { */
-  /* display: flex; */
-  /* min-width: 52%; */
-  /* justify-content: space-evenly; */
-/* } */
-/* .nav_bar a { */
-  /* font-size: 14px; */
-  /* letter-spacing: 0.3px; */
-  /* color: #282c3f; */
-  /* font-weight: 700; */
-  /* text-transform: uppercase; */
-  /* text-decoration: none; */
-  /* padding: 0 0; */
-  /* border-bottom: 5px solid #ffffff; */
-  /* overflow: hidden; */
-/* } */
-/* .nav_bar a:hover { */
-  /* border-bottom: 4px solid #f54e77; */
-/* } */
-
-/* .nav_bar a sup { */
-  /* color: #ff3f6c; */
-  /* font-size: 10px; */
-/* } */
 
 .dropdown-item {
   background-color: transparent !important;
@@ -102,14 +73,6 @@ button:hover {
 .action_container {
   text-decoration: none;
 }
-/* sup { */
-  /* top: -8px; */
-/* } */
-/*  */
-/* .menu_container { */
-  /* display: none; */
-  /* text-align: center; */
-/* } */
 
 .menu_icon {
   max-width: 100%;
@@ -118,8 +81,8 @@ button:hover {
 }
 .bag-book-count {
   position: absolute;
-  top: 1px; /* Adjusts position above the cart icon */
-  right: -10px; /* Adjusts position to the right */
+  top: 1px; 
+  right: -10px; 
   background-color: red;
   color: white;
   border-radius: 50%;
@@ -127,110 +90,6 @@ button:hover {
   font-size: 12px;
   font-weight: bold;
 }
-/*.bag-book-count {
-  background-color: #f16565;
-  /* white-space: nowrap; */
-  /* text-align: center; */
-  /* line-height: 1.1rem; */
-  /*padding: 0 6px;
-  /* height: 1.1rem; */
-  /* position: relative; */
-  /*border-radius: 50%;
-  font-size: 0.8rem;
-  color: #fff;
-  /* left: 13px; */
-  /* top: -44px; */
-  /*font-weight: 700;
-  cursor: pointer;
-}
-
-/* .action_container { */
-/* text-decoration: none; */
-/* } */
-/* a.action_container:link { */
-/* color: black; */
-/* } */
-
-/* @media screen and (max-width: 1250px) { */
-/* .logo_container { */
-/* margin: 0; */
-/* } */
-/* .myntra_home { */
-/* height: 5rem; */
-/* } */
-/* .nav_bar a { */
-/* font-size: 11px; */
-/* } */
-/* .action_bar { */
-/* font-size: 10px; */
-/* min-width: 0%; */
-/* } */
-/* .search_bar { */
-/* min-width: 20%; */
-/*      */
-/* } */
-/* .search_input { */
-/* font-size: 13px; */
-/* min-width: 20%; */
-/* } */
-/* } */
-/*  */
-/* @media screen and (max-width: 933px) { */
-/* .nav_bar a { */
-/* font-size: 9px; */
-/* } */
-/* } */
-/*  */
-/* @media screen and (max-width: 783px) { */
-/* .nav_bar { */
-/* display: none; */
-/* } */
-/* .menu_container { */
-/* display: flex; */
-/* max-width: 100%; */
-/* float: left; */
-/* margin-left: 2rem; */
-/* display: block; */
-/* } */
-/* .menu_icon { */
-/* display: block; */
-/* margin-right: 2rem; */
-/* } */
-/* .search_bar { */
-/* min-width: 20%; */
-/* } */
-/* .search_input { */
-/* font-size: 13px; */
-/* min-width: 20%; */
-/* } */
-/* } */
-/*  */
-/* @media screen and (max-width: 550px) { */
-/* .logo_container { */
-/* display: none; */
-/* } */
-/* .myntra_home { */
-/* display: none; */
-/* } */
-/* .menu_icon { */
-/* height: 2rem; */
-/* margin-right: 1rem; */
-/* } */
-/* .search_bar { */
-/* margin-left: 0px; */
-/* width: 80%; */
-/* } */
-/* .search_input { */
-/* font-size: 13px; */
-/* min-width: 70%; */
-/* } */
-/* .action_container { */
-/* font-size: 0.5rem; */
-/* } */
-/* } */
-/*  */
-
-
 
 @media screen and (max-width: 1281px) {
 }
@@ -242,20 +101,6 @@ button:hover {
   .data div {
     padding: rem;
   }
-  /* .action_bar { */
-    /* margin-top: 0.2rem !important; */
-    /* display: flex; */
-    /* min-width: 14%; */
-    /* width: 60%; */
-    /* justify-content: space-evenly; */
-  /* } */
-
-  /* span, */
-  /* .r { */
-    /* margin-left: 0px !important; */
-    /* font-size: 11px; */
-  /* } */
-/* } */
   }
 @media screen and (max-width: 562px) {
   .btn-secondary {
