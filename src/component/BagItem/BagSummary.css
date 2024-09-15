@@ -56,14 +56,14 @@
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+@media screen and (max-width: 1281px) {}
 
-@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 933px) {}
+@media screen and (max-width: 767px) {}
 
-@media screen and (max-width: 783px) {}
+@media screen and (max-width: 480px) {}
 
-@media screen and (max-width: 550px) {
   .bag-summary {
     margin-top: rem;
     vertical-align: top;
@@ -106,4 +106,3 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
   }
-}

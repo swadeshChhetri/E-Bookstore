@@ -39,6 +39,7 @@
 .data {
   margin-top: 2rem;
 }
+
 .data h1 {
   font-weight: 700;
 }
@@ -60,3 +61,27 @@ span ,.r{
   font-weight: 600;
   letter-spacing: 0.1px;
 }
+
+@media screen and (max-width: 1281px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 670px) {
+  .data {
+    display: none;
+  }
+  .exciting {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.exciting a {
+  font-size: 0.6rem;
+}
+.footer_column a {
+  font-size: 11px !important;
+}
+}
+
+@media screen and (max-width: 480px) {}

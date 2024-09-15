@@ -81,13 +81,13 @@
 }
 
 
-@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1281px) {}
 
-@media screen and (max-width: 933px) {}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 783px) {}
+@media screen and (max-width: 767px) {}
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
   .bag-book-container {
     margin-bottom: 8px;
     background: #fff;

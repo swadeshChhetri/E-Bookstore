@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+@media screen and (max-width: 1281px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 480px) {}
+

@@ -8,14 +8,14 @@ const Home = () => {
         <img src="image/trending-title-24.svg" alt="" />
       </div>
       <div className="data">
-        <div>
+        <div className="data-count">
           <span>
             <img src="image/Icon-books.svg" alt="" />
           </span>
           <h1>38M+</h1>
           <p>BOOKS DONATED</p>
         </div>
-        <div>
+        <div className="data-count">
           <span className="o">
             <img src="image/Icon-literacy.svg" alt="" />
           </span>
@@ -25,7 +25,7 @@ const Home = () => {
             LIBRARIES & LITERACY
           </p>
         </div>
-        <div>
+        <div className="data-count">
           <span className="o">
             <img src="image/Icon-recycle.svg" alt="" />
           </span>
@@ -34,14 +34,14 @@ const Home = () => {
             BOOKS REUSED <br /> OR RECYCLED
           </p>
         </div>
-        <div>
+        <div className="data-count">
           <span className="o">
             <img src="image/Icon-people.svg" alt="" />
           </span>
           <h1>87M+</h1>
           <p>CUSTOMERS SERVED</p>
         </div>
-      </div>
+      </div >
       <div className="exciting">
         <div>
           <a href="">

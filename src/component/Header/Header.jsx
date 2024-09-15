@@ -136,7 +136,6 @@ const Header = () => {
 
         <Link className="action_container cart" to="bag">
           <BsCart4 size={22} />
-          <span className="action_name "> My Cart</span>
           <sup className="bag-book-count">{bag.length}</sup>
         </Link>
       </div>
