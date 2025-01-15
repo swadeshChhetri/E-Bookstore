@@ -1,0 +1,8 @@
+.Search-box{
+  width: 100%;
+  border-radius: 2px;
+}
+
+.Search-box input{
+  width: 80%;
+}

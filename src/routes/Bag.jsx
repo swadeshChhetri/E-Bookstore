@@ -1,5 +1,5 @@
-import Bagbook from "../component/BagItem/BagItem";
-import BagSummary from "../component/BagItem/BagSummary";
+import Bagbook from "../components/BagItem/BagItem";
+import BagSummary from "../components/BagItem/BagSummary";
 import { useSelector } from "react-redux";
 
 const Bag = () => {
@@ -21,7 +21,7 @@ const Bag = () => {
           ))}
         </div>
         <BagSummary />
-      </div>
+        </div>
     </main>
   );
 };

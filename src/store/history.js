@@ -6,10 +6,6 @@ const historySlice = createSlice({
   reducers: {
     addInitialhistory: (state, action) => {  //property
       return action.payload;
-       
-      
-      
-     
     }
   }
 });

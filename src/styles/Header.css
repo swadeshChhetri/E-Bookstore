@@ -1,0 +1,138 @@
+header {
+  width: 100%;
+  background-color: #ffffff;
+  height: 4rem;
+  align-items: center;
+  z-index: 8;
+}
+
+.navbar {
+  flex-wrap: nowrap !important;
+}
+
+.logo_home {
+  height: 4.8rem;
+  border-radius: 2rem;
+}
+
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.action_bar {
+  margin-right: 4%;
+}
+
+.dropdown-item {
+  background-color: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: transparent !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:hover {
+  color: black !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search_bar {
+  height: 3rem;
+  width: 63%;
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  border: 1px solid #c1bbbb;
+  padding: 16px;
+  border-radius: 2rem;
+}
+
+.search_input {
+  border: #eef0f5;
+  margin-left: 1rem;
+  width: 60%;
+}
+
+.action_bar {
+  display: flex;
+  position: relative;
+  font-size: 21px;
+}
+
+.action_container {
+  text-decoration: none;
+}
+
+.menu_icon {
+  max-width: 100%;
+  text-align: center;
+  display: none;
+}
+.bag-book-count {
+  position: absolute;
+  top: 1px; 
+  right: -10px; 
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1281px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 690px) {
+  .data div {
+    padding: rem;
+  }
+  }
+@media screen and (max-width: 562px) {
+  .btn-secondary {
+    display: none !important;
+  }
+  .search_bar {
+    height: 2.5rem;
+}
+}
+@media screen and (max-width: 480px) {
+.offcanvas-menu ul li {
+  margin: 0.8rem 7% !important;
+}
+
+.logo_home {
+  width: 77%;
+}
+.search_bar{
+  margin-left: 0;
+}
+.action_bar {
+  margin:15px;
+}
+
+.search_bar {
+  width: 61%;
+}
+.search_input {
+  margin-left: 0.5rem;
+  width: 100%;
+}
+
+}
+
